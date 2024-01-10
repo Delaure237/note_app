@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406158064910",
+    "project_id": "the-crown-b8973",
+    "storage_bucket": "the-crown-b8973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406158064910:android:96de475805c38a1c7deb5f",
+        "android_client_info": {
+          "package_name": "com.example.my_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2k32eDgGvZFgzYB-u0zi-acYI6Iip-b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
