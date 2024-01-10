@@ -5,8 +5,8 @@ import 'package:provider/provider.dart';
 
 import '../Services/firestoreHandler.dart';
 class SeeMore extends StatefulWidget {
-  final Note notes;
-  const SeeMore({required this.notes}) ;
+
+ // const SeeMore({}) ;
 
   @override
   State<SeeMore> createState() => _SeeMoreState();

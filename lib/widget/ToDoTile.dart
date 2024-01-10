@@ -16,7 +16,7 @@ class ToDoTiles extends StatelessWidget {
     final TextEditingController titleController = TextEditingController();
     final TextEditingController descController = TextEditingController();
     DataStorageService _datas = DataStorageService(uid: '');
-   SeeMore _more = SeeMore(notes: note[index],);
+   SeeMore _more = SeeMore();
 
 
 DataStorageService db = DataStorageService(uid: '');
