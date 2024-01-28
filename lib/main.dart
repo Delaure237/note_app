@@ -27,10 +27,10 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
         providers: [
 
-      StreamProvider<List<Note>?>.value(
-          catchError: (_,__) => null,
+      StreamProvider<List<Note>>.value(
+          catchError: (_,__) => [],
           value:DataStorageService(uid: user!.uid).note,
-          initialData:null,
+          initialData: const [],
       ),
 
 

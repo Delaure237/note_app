@@ -15,9 +15,9 @@ class HomePage extends StatelessWidget {
     final AuthService _auth = AuthService();
 
     final user = Provider.of<CurrentUser?>(context);
-    return StreamProvider<List<Note>?>.value(
+    return StreamProvider<List<Note>>.value(
         value:DataStorageService(uid: user!.uid).note,
-        initialData:  null ,
+        initialData:  const [],
      child: Scaffold(
       appBar: AppBar(
         centerTitle: true,
