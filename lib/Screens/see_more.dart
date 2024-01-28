@@ -28,12 +28,8 @@ class _SeeMoreState extends State<SeeMore> {
           if(snapshot.hasData){
            UserNote? usernote = snapshot.data;
 
-
     } else{
-
     }
-
-
   }*/
     /*  return   StreamBuilder<List<Note>>(
         stream: DataStorageService(uid: user!.uid).task,
