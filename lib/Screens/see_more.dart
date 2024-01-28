@@ -38,9 +38,9 @@ class _SeeMoreState extends State<SeeMore> {
     /*  return   StreamBuilder<List<Note>>(
         stream: DataStorageService(uid: user!.uid).task,
         builder:(context,index) {*/
-    return StreamProvider<List<Note>?>.value(
+    return StreamProvider<List<Note>>.value(
         value: DataStorageService(uid: user!.uid).note,
-        initialData: null,
+        initialData: const [],
      child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
