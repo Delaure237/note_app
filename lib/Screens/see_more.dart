@@ -5,13 +5,10 @@ import 'package:provider/provider.dart';
 
 import '../Services/firestoreHandler.dart';
 class SeeMore extends StatefulWidget {
-
  // const SeeMore({}) ;
-
   @override
   State<SeeMore> createState() => _SeeMoreState();
 }
-
 class _SeeMoreState extends State<SeeMore> {
   final TextEditingController titleController = TextEditingController();
   final TextEditingController descController = TextEditingController();
@@ -96,14 +93,13 @@ class _SeeMoreState extends State<SeeMore> {
                           border: OutlineInputBorder(
                             borderSide: const BorderSide(
                               color: Colors.orange,
-
                             ),
                             borderRadius: BorderRadius.circular(10),
                           )
                       ),
                       maxLines: 5,
                     ),
-                    SizedBox(height: 24,),
+                    const SizedBox(height: 24,),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
